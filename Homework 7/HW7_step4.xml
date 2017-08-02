@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="HW7_step4.xsl"?>
+
+<!-- HW7_step4.xml
+	- This is a document that creates
+	  at least 3 instances of the car element defined in
+	  the XML schema
+
+	- This document is processed by using HW_7.xsd
+	  and produces a display of the raw XML document. However,
+	  this will be used as the XML document for HW7_step4.xslt
+-->
+
+<!-- Create a catalog root tag -->
+<catalog>
+	<!-- First instance of the car element defined in xml schema -->
+	<car>
+		<make> Chevy </make>
+		<model> Silverado 1500 </model>
+		<year>  2016 </year>
+		<color>  Black </color>
+		<engine>
+			<cylinders> 8 </cylinders>
+			<fuel_system> Fuel Injected </fuel_system>
+		</engine>
+		<number_of_doors> 4 </number_of_doors>
+		<transmission_type> Automatic </transmission_type>
+		<accessories>
+			RADIO -<radio> yes </radio>
+			AIR CONDITIONING -<air_conditioning> yes </air_conditioning>
+			POWER WINDOWS -<power_windows> yes </power_windows>
+			POWER STEERING -<power_steering> yes </power_steering>
+			POWER BRAKES -<power_brakes> yes </power_brakes>
+		</accessories>
+	</car>
+
+</catalog>

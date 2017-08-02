@@ -1,0 +1,23 @@
+/* Jason Sneddon - snedd001
+ * CIS 444 - Homework 4 Fruit Stand Order Form
+ * Homework4.css
+ *
+ * This is the external style sheet for Homework4.html
+ * and is used to style the Fruit Order Form
+ */
+
+/* Header */
+h1{
+     text-transform: uppercase;
+     text-align: center;
+}
+
+/* Align text */
+.appleType, .orangeType, .bananaType, .submitType{
+     text-align: center;
+}
+
+/* Background color */
+body{
+     background-color: LightGray;
+}

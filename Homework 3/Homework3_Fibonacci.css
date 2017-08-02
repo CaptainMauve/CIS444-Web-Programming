@@ -1,0 +1,48 @@
+/*
+ *	Jason Sneddon
+ *	Homework 3 - Fibonacci 
+ *	
+ *	Description: This is the external style sheet for 
+ *				 Homework3_Fibonacci. This describes how
+ *				 the table will be displayed: with a border, 
+ *				 proper headings, and with a centered header
+ *				 and table. 
+ */
+ 
+/* Whole table */
+table{
+	margin: 0 auto;
+	padding: 5px;
+	border: medium solid black;
+}
+/* Table header */
+th{
+	font-family: arial;
+	font-size: 1.2em;
+	text-transform: uppercase; 
+	padding: 20px;
+	border: medium solid black;
+	background-color: DimGray;
+	color: white;
+}
+/* Rows */
+tr{
+	padding: 5px;
+	border: medium solid black;
+	
+}
+/* Background color of even rows */
+tr:nth-child(even){
+		background-color: gainsboro;
+}
+/* Cells in table */
+td{
+	text-align: center;
+	font-family: helvetica;
+	padding: 5px;
+	border: medium solid black;
+}
+/* Align top header */
+h1{
+	text-align: center;
+}

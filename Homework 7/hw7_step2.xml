@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Link to css file -->
+<?xml-stylesheet type = "text/css" href = "HW7_step3.css" ?>
+
+<!-- homework7.xml
+- This is a document that creates
+at least 3 instances of the car element defined in
+the XML schema
+
+- This document is processed by using homework7.xsd
+and produces a display of the raw XML document -->
+
+<!-- Link to xsl stylesheet
+<?xml-stylesheet type = "text/xsl" hred = "homework7.xsl" ?>   -->
+
+<!-- Create a catalog root tag -->
+<catalog
+	xmlns="http://cis444.cs.csusm.edu"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://cis444.cs.csusm.edu/STUDENT_ACCOUNT HW_7.xsd">
+
+	<h1> Cars Catalog </h1>
+
+	<!-- First instance of the car element defined in xml schema -->
+	<car>
+		<make> <h4> Make: </h4> Chevy </make>
+		<model> <h4> Model: </h4> Silverado 1500 </model>
+		<year> <h4> Year: </h4> 2016 </year>
+		<color> <h4> Color: </h4> Black </color>
+		<engine>
+			<cylinders> <h4> Cylinders: </h4> 8 </cylinders>
+			<fuel_system> <h4> Fuel System: </h4> Fuel Injected </fuel_system>
+		</engine>
+			<number_of_doors> <h4> Doors: </h4> 4 </number_of_doors>
+			<transmission_type> <h4> Transmission: </h4> Automatic </transmission_type>
+		<accessories>
+			<radio> <h4> Radio: </h4> yes </radio>
+			<air_conditioning> <h4> Air Conditioning: </h4> yes </air_conditioning>
+			<power_windows> <h4> Power Windows: </h4> yes </power_windows>
+			<power_steering> <h4> Power Steering: </h4> yes </power_steering>
+			<power_brakes> <h4> Power Brakes: </h4> yes </power_brakes>
+		</accessories>
+	</car>
+
+	<!-- Second instance of the car element defined in xml schema -->
+	<car>
+		<make> <h4> Make: </h4> Dodge </make>
+		<model> <h4> Model: </h4> Ram 1500 </model>
+		<year> <h4> Year: </h4> 2017 </year>
+		<color> <h4> Color: </h4> Charcoal </color>
+		<engine>
+			<cylinders> <h4> Cylinders: </h4> 8 </cylinders>
+			<fuel_system> <h4> Fuel System: </h4> Carbureted </fuel_system>
+		</engine>
+			<number_of_doors> <h4> Doors: </h4> 4 </number_of_doors>
+			<transmission_type> <h4> Transmission: </h4> Manual </transmission_type>
+		<accessories>
+			<radio> <h4> Radio: </h4> yes </radio>
+			<air_conditioning> <h4> Air Conditioning: </h4> yes </air_conditioning>
+			<power_windows> <h4> Power Windows: </h4> yes </power_windows>
+			<power_steering> <h4> Power Steering: </h4> yes </power_steering>
+			<power_brakes> <h4> Power Brakes: </h4> yes </power_brakes>
+		</accessories>
+	</car>
+
+	<!-- Third instance of the car element defined in XML schema -->
+	<car>
+		<make> <h4> Make: </h4> Chevy </make>
+		<model> <h4> Model: </h4> Corvette </model>
+		<year> <h4> Year: </h4> 1973 </year>
+		<color> <h4> Color: </h4> Red </color>
+		<engine>
+			<cylinders> <h4> Cylinders: </h4> 8 </cylinders>
+			<fuel_system> <h4> Fuel System: </h4> Carbureted </fuel_system>
+		</engine>
+			<number_of_doors> <h4> Doors: </h4> 2 </number_of_doors>
+			<transmission_type> <h4> Transmission: </h4> Manual </transmission_type>
+		<accessories>
+			<radio> <h4> Radio: </h4> yes </radio>
+			<air_conditioning> <h4> Air Conditioning: </h4> no </air_conditioning>
+			<power_windows> <h4> Power Windows: </h4> no </power_windows>
+			<power_steering> <h4> Power Steering: </h4> yes </power_steering>
+			<power_brakes> <h4> Power Brakes: </h4> no </power_brakes>
+		</accessories>
+	</car>
+
+
+	<!-- Fourth instance of the car element defined in XML schema -->
+	<car>
+		<make> <h4> Make: </h4> Ford </make>
+		<model> <h4> Model: </h4> F-650 </model>
+		<year> <h4> Year: </h4> 2016 </year>
+		<color> <h4> Color: </h4> Flat Black </color>
+		<engine>
+			<cylinders> <h4> Cylinders: </h4> 10 </cylinders>
+			<fuel_system> <h4> Fuel System: </h4> Fuel Injected </fuel_system>
+		</engine>
+			<number_of_doors> <h4> Doors: </h4> 6 </number_of_doors>
+			<transmission_type> <h4> Transmission: </h4> Manual </transmission_type>
+		<accessories>
+			<radio> <h4> Radio: </h4> yes </radio>
+			<air_conditioning> <h4> Air Conditioning: </h4> yes </air_conditioning>
+			<power_windows> <h4> Power Windows: </h4> yes </power_windows>
+			<power_steering> <h4> Power Steering: </h4> yes </power_steering>
+			<power_brakes> <h4> Power Brakes: </h4> yes </power_brakes>
+		</accessories>
+	</car>
+</catalog>

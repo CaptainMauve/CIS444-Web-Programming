@@ -1,0 +1,27 @@
+/* Jason Sneddon - snedd001
+ * CIS 444 - Homework 5 - Display Picture
+ * Homework5.css
+ *
+ * This is the CSS file used change the display 
+ * of pic.jpg
+ */
+ 
+
+ /* Set html to maximize screen */
+html{
+	height: 100%;
+} 
+
+/* Set body to maximize screen */
+body{
+     background-color: LightGray;
+	 height: 90%;
+	 overflow: hidden;
+}
+
+/* Set initial position of picture */
+.myPic{
+	height: 200px;
+	width: 200px;
+	visibility: visible;
+}

@@ -1,0 +1,51 @@
+/* Jason Sneddon - snedd001
+ * CIS 444 - Homework 7 Cars Catalog
+ * HW7_step3.css
+ *
+ * This is the external style sheet for hw7_step2.xml
+ * and is used to create a display.
+ */
+
+catalog {
+     background-color: #00008b;
+}
+
+h1 {
+     text-align: center;
+     color: #f0ffff;
+     margin-top: 30px;
+     display: block;
+     text-transform: uppercase;
+     font-weight: 900;
+     font-family: monospace;
+     font-size: 38px;
+}
+
+car {
+      padding: 30px;
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      background-color: #e0ffff;
+      border-radius: 25px;
+      display: block;
+}
+
+h4 {
+     font-weight: 900;
+     font-family: monospace;
+}
+
+make, model, year, color, cylinders, fuel_system, number_of_doors, transmission_type {
+     display: block;
+     font-family: monospace;
+     font-size: 12pt;
+}
+
+radio, air_conditioning, power_windows, power_steering, power_brakes {
+     display: block;
+     font-family: monospace;
+     font-size: 12pt;
+}
