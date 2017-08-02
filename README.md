@@ -1,2 +1,3 @@
 # CIS444-Web-Programming
-This contains the homework assignments completed in the CIS 444 Web Programming course at CSUSM. 
+
+Homework assignments involve a basic introduction to HTML, CSS, JavaScript, PHP, and touches on XML. The collaborative term project shows the design and creation of a basic website connected to a MySQL database for a local wholesale florist company. 
