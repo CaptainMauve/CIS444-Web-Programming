@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Jason Sneddon - snedd001
+     CIS 444 - Homework 6
+     Homework6.html
+
+     This is file used to allow a user to enter
+     a NBA teamID via a textbox. Once the user
+     clicks the submit button, a PHP script is
+     processes the request and displays the team
+     information corresponding to the teamID entered
+     in a bordered table with the proper headings.
+-->
+
+<html lang = "en">
+     <head>
+          <title> CIS 444 Homework 6 - NBA Teams </title>
+          <meta charset = "utf-8" />
+
+          <!-- Link to CSS File-->
+          <link rel = "stylesheet" type = "text/css" href = "Homework6.css" />
+          <!-- Link to JavaScript File
+          <script type = "text/javascript" src = "Homework6.js"> </script>
+
+     -->
+     </head>
+     <body>
+          <h1> NBA Teams </h1>
+          <p>
+               Please enter a Team ID to search for:
+               <br />
+               <form action = "Homework6.php" method = "post">
+                    <input type = "text" name = "teamIDQuery" size = "20"></input>
+                    <br /> <br />
+                    <input type = "submit" value = "Submit ID"/>
+                    <input type = "reset" value = "Reset"/>
+               </form>
+          </p>
+     </body>
+</html>

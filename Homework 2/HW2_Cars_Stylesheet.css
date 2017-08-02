@@ -1,0 +1,24 @@
+/* Jason Sneddon 
+	CIS 444 - Web Programming
+	Homework 2 
+*/
+
+/* This is an external style sheet for Homework 2 - Cars List */
+
+/* Outer List Roman numerals */
+ol { list-style-type: upper-roman; }
+
+/* Sublist Uppercase letters */
+ol ol { list-style-type: upper-alpha; }
+
+/* Sub-Sublist Arabic numerals */
+ol ol ol { list-style-type: decimal;}
+
+/* Background for Compact Car = Pink */
+li.compact { background-color: pink; }
+
+/* Background for Midsize Car = Blue */
+li.midsize { background-color: blue; }
+
+/* Background for Sports Car = Red */
+li.sports { background-color: red; }

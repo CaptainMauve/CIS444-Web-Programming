@@ -1,0 +1,56 @@
+/*
+ * Jason Sneddon
+ * Homework6.css
+ * CIS 444 - Web Programming
+ *
+ * Description - This this the CSS file for Homework 6 - NBA Teams,
+ *               and is used to format the layout of the table.
+ */
+
+html
+{
+      overflow: auto;
+}
+
+ body{
+      min-width: 1200px;
+      margin: 0;
+      padding: 0;
+}
+
+/* Whole table */
+table{
+     margin: 0 auto;
+     padding: 5px;
+     border: medium solid black;
+}
+
+/* Header */
+h3{
+     text-align: center;
+     font-family: sans-serif;
+}
+
+/* Column headers */
+th{
+     font-family: arial;
+     font-size: 1.2em;
+     padding: 5px;
+     border: medium solid black;
+     background-color: DimGray;
+     color: white;
+}
+
+/* Rows */
+tr{
+     padding: 5px;
+	border: medium solid black;
+}
+
+/* Fields */
+td{
+     text-align: center;
+	font-family: helvetica;
+	padding: 5px;
+	border: medium solid black;
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="HW7_step5.xsl"?>
+
+<!-- Create a catalog root tag -->
+<catalog>
+
+	<!-- First instance of the car element defined in xml schema -->
+	<car>
+		<make> Chevy </make>
+		<model> Silverado 1500 </model>
+		<year> 2016 </year>
+		<color> Black </color>
+		<engine>
+			CYLINDERS -<cylinders> 8 </cylinders>
+			FUEL SYSTEM -<fuel_system> Fuel Injected </fuel_system>
+		</engine>
+		<number_of_doors> 4 </number_of_doors>
+		<transmission_type> Automatic </transmission_type>
+		<accessories>
+			RADIO -<radio> yes </radio>
+			AIR CONDITIONING -<air_conditioning> yes </air_conditioning>
+			POWER WINDOWS -<power_windows> yes </power_windows>
+			POWER STEERING -<power_steering> yes </power_steering>
+			POWER BRAKES -<power_brakes> yes </power_brakes>
+		</accessories>
+	</car>
+
+	<!-- Second instance of the car element defined in xml schema -->
+	<car>
+		<make> Dodge </make>
+		<model> Ram 1500 </model>
+		<year> 2017 </year>
+		<color> Charcoal </color>
+		<engine>
+			CYLINDERS-<cylinders>  8 </cylinders>
+			FUEL SYSTEM -<fuel_system> Carbureted </fuel_system>
+		</engine>
+		<number_of_doors> 4 </number_of_doors>
+		<transmission_type> Manual </transmission_type>
+		<accessories>
+			RADIO -<radio> yes </radio>
+			AIR CONDITIONING -<air_conditioning> yes </air_conditioning>
+			POWER WINDOWS -<power_windows> yes </power_windows>
+			POWER STEERING -<power_steering> yes </power_steering>
+			POWER BRAKES -<power_brakes> yes </power_brakes>
+		</accessories>
+	</car>
+
+	<!-- Third instance of the car element defined in XML schema -->
+	<car>
+		<make> Chevy </make>
+		<model> Corvette </model>
+		<year> 1973 </year>
+		<color> Red </color>
+		<engine>
+			CYLINDERS-<cylinders>8 </cylinders>
+			FUEL SYSTEM -<fuel_system> Carbureted </fuel_system>
+		</engine>
+		<number_of_doors> 2 </number_of_doors>
+		<transmission_type> Manual </transmission_type>
+		<accessories>
+			RADIO -<radio> yes </radio>
+			AIR CONDITIONING -<air_conditioning> no </air_conditioning>
+			POWER WINDOWS -<power_windows> no </power_windows>
+			POWER STEERING -<power_steering> yes </power_steering>
+			POWER BRAKES -<power_brakes> no </power_brakes>
+		</accessories>
+	</car>
+
+
+	<!-- Fourth instance of the car element defined in XML schema -->
+	<car>
+		<make> Ford </make>
+		<model> F-650 </model>
+		<year> 2016 </year>
+		<color> Flat Black </color>
+		<engine>
+			CYLINDERS-<cylinders> 10 </cylinders>
+			FUEL SYSTEM -<fuel_system> Fuel Injected </fuel_system>
+		</engine>
+		<number_of_doors> 6 </number_of_doors>
+		<transmission_type> Manual </transmission_type>
+		<accessories>
+			RADIO -<radio> yes </radio>
+			AIR CONDITIONING -<air_conditioning> yes </air_conditioning>
+			POWER WINDOWS -<power_windows> yes </power_windows>
+			POWER STEERING -<power_steering> yes </power_steering>
+			POWER BRAKES -<power_brakes> yes </power_brakes>
+		</accessories>
+	</car>
+</catalog>
